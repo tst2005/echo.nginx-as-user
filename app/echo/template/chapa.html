@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Secure Access Area Four J's for changing password</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" id="avia-google-webfont" href="//fonts.googleapis.com/css?family=Open+Sans:400,600" type="text/css" media="all">
+  <link rel="stylesheet" id="open-sans-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&amp;subset=latin%2Clatin-ext&amp;ver=4.3.1" type="text/css" media="all">
+
+  <script type="text/javascript">
+function dofocus() {
+  if (document.loginform.username.value)
+    document.loginform.old_pwd.focus();
+  else
+    document.loginform.username.focus();
+}
+  </script>
+</head>
+<body id="top" onLoad="dofocus(); ">
+  <table width="100%" height="100%">
+    <tr><td align="center" valign="middle">
+      <div class="main_color flex_column av_one_half  flex_column_table_cell av-equal-height-column av-align-top av-zero-column-padding   " style="border-radius:0px; ">
+        <article class="iconbox iconbox_top main_color" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+          <div class="iconbox_content">
+            <header class="entry-content-header">
+              <div class="iconbox_icon heading-color" aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></div>
+              <h3 class="iconbox_content_title" itemprop="headline">Four Js password update area</h3>
+            </header>
+            <div class="iconbox_content_container " itemprop="text">
+              <div style="text-align:center;font-size:12px;">To change your password, please fill the following items :<br>&nbsp;</div>
+              <form name="loginform" method="POST" action="">
+                <input type="hidden" name="action" value="ok">
+                <input type="text" name="username" value="gac" placeholder="Your username (email without @4js.com)">
+                <input type="password" name="old_pwd" autocomplete="off" placeholder="Your&nbsp;Password"><span class="show-password"></span>
+                <input type="password" name="new_pwd1" autocomplete="off" placeholder="New&nbsp;Password" ><span class="show-password"></span>
+                <input type="password" name="new_pwd2" autocomplete="off" placeholder="Retype&nbsp;New&nbsp;Password"><span class="show-password"></span>
+                <input type="submit" name="submit" value="Update"><br>
+                <span style="font-size: 11px;">
+                  <a href="mailto:sysadmin@4js.com">Forgot your password or any issue?<br>  Please contact us at sysadmin@4js.com</a>
+                </span>
+              </form>
+              <p></p>
+              <div style="text-align:center;font-size:13px;">
+                <span align='enter' style='color:red;text-align:center;font-size:13px;'>This will not change your Email/Teams password!</span><br>
+                <a href='https://sso.ourvolaris.com/adfs/portal/updatepassword/' target="_blank">Click here to change your Email/Teams (Volaris) password.</a>
+              </div>
+            </div>
+          </div>
+          <footer class="entry-footer"></footer>
+        </article>
+      </div>
+    </td></tr>
+  </table>
+  <script src="jquery.js"></script>
+  <script src="fjsscript.js"></script>
+</body>
+</html>
